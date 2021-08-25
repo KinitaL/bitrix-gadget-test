@@ -2,8 +2,8 @@
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 $arDescription = Array(
-    "NAME"  =>  "ИнфоблокШоу", // Имя
-    "DESCRIPTION"   =>  "Гаджет, выводящий что-то из инфоблока",  //  Описание
+    "NAME"  =>  "Загрузка", // Имя
+    "DESCRIPTION"   =>  "Загрузить информацию по фонду",  //  Описание
     "GROUP" =>  Array(
         "ID"    =>  "admin_settings"    //  Группа в списке
     ),
