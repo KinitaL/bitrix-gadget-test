@@ -44,7 +44,7 @@
                         $PROP = array();
                         $PROP['date'] = $new_date;  // свойству с кодом date присваиваем значение
                         $PROP['ind_value'] = $Ind->Ind_value;        // свойству с кодом ind_value присваиваем значение
-                        $PROP['fond_id'] = $Fond_id;
+                        $PROP['fond'] = $Fond_id;
 
                         $arLoadProductArray = [ 
                             "IBLOCK_ID"      => 10,     //Указывается ID инфоблока, которому принадлежат элементы
@@ -72,7 +72,7 @@
                         $PROP['date'] = $new_date;  // свойству с кодом date присваиваем значение
                         $PROP['nav'] = $Inv->NAV;        // свойству с кодом ind_value присваиваем значение
                         $PROP['aum'] = $Inv->AUM;
-                        $PROP['fond_id'] = $Fond_id;
+                        $PROP['fond'] = $Fond_id;
 
                         $arLoadProductArray = [ 
                             "IBLOCK_ID"      => 11,     //Указывается ID инфоблока, которому принадлежат элементы
